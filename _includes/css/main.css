@@ -9,10 +9,7 @@ body {
   font-family: "Avenir Next",Avenir,Arial,sans-serif;
   font-weight: 200;
   background: url('../img/bg.jpg') no-repeat center center;
-  background-size: cover;
-  height: auto;
   background-attachment: fixed;
-  background-position: fixed;
 }
 
 p {
@@ -154,7 +151,6 @@ header .intro-text .skills {
 
 .navbar {
   text-transform: uppercase;
-  letter-spacing: .75em;
 }
 
 .navbar a:focus {
