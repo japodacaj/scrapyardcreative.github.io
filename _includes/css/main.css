@@ -5,17 +5,22 @@
  */
 
 body {
-    overflow-x: hidden;
-    font-family: "Avenir Next",Avenir,Arial,sans-serif;
-    font-weight: 200;
+  overflow-x: hidden;
+  font-family: "Avenir Next",Avenir,Arial,sans-serif;
+  font-weight: 200;
+  background: url('../img/bg.jpg') no-repeat center center;
+  background-size: cover;
+  height: auto;
+  background-attachment: fixed;
+  background-position: fixed;
 }
 
 p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 p.small {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 a,
@@ -23,8 +28,8 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    outline: 0;
-    color: #{{ site.color.primary }};
+  outline: 0;
+  color: #{{ site.color.primary }};
 }
 
 h1,
@@ -83,7 +88,6 @@ hr.star-primary:after {
 header {
   text-align: center;
   color: #fff;
-  background: #{{ site.color.primary }};
 }
 
 header .container {
@@ -192,6 +196,14 @@ section.success {
   section.first {
     padding-top: 75px;
   }
+}
+
+section#portfolio {
+  background-color: #fff;
+}
+
+section#contact {
+background-color: #fff;
 }
 
 #portfolio .portfolio-item {
