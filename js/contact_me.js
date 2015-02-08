@@ -18,7 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "//forms.brace.io/info@scrapyardcreative.com",
+                url: "//formspree.io/info@scrapyardcreative.com",
                 type: "POST",
                 data: {
                     name: name,
